@@ -1,0 +1,39 @@
+
+======================================================================
+DATASET SUMMARY REPORT
+======================================================================
+
+1. DATASET SIZE
+   Total samples: 61,045
+   
+2. SARCASM LABELS
+   Sarcastic: 29,886 (49.0%)
+   Non-sarcastic: 31,159 (51.0%)
+   
+3. SENTIMENT LABELS
+   Negative: 19,751 (32.4%)
+   Neutral: 26,255 (43.0%)
+   Positive: 15,039 (24.6%)
+   
+4. TEXT STATISTICS
+   Avg text length: 100.6 characters
+   Avg word count: 16.5 words
+   Min words: 3
+   Max words: 2359
+   
+5. DATA SOURCES
+source
+news                28395
+twitter_figshare    25954
+twitter_shiv         6456
+twitter_nikesh        240
+
+6. SARCASM IN SENTIMENT CATEGORIES
+Sarcasm        0      1    All
+Sentiment                     
+0           7136  12615  19751
+1          13722  12533  26255
+2          10301   4738  15039
+All        31159  29886  61045
+
+======================================================================
