@@ -1,1 +1,9 @@
 venv/
+# Large raw data files
+*.csv
+*.json
+!requirements.txt
+
+# But include preprocessed data
+!preprocess/data/*.csv
+!preprocess/results/*.csv
